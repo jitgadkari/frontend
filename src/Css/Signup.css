@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* .contain{
+       width: 30vw;
+       height: 80vh;
+       background-color: rgb(178, 181, 181);
+       margin: auto;
+       display: flex;
+       border: 1px solid rgb(197, 195, 195);
+       margin-top: 10vh;
+       border-radius: 10px;
+       background-size:cover;
+       background-repeat: no-repeat;
+   } */
+
+
+
+.cardstyle{
+  /* margin: auto; */
+  margin: 0px;
+width: 30vw;
+  height: 70vh;
+  border-radius: 8px;
+  /* padding-bottom: 10px; */
+  background-color: aquamarine;
+  color: black;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.maintain{
+    width: 25vw;
+    flex-direction: column;
+   height: 70vh;
+   border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* margin-top: 20px; */
+    background-color: aquamarine;
+    background-image: linear-gradient(to top ,rgb(32, 28, 28),rgba(146, 137, 137, 0));
+}
+.forms{
+    /* background-color: black; */
+    color: rgb(0, 0, 0);
+}
+.forms label{
+   
+}
+
+.back{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient(to top ,rgb(14, 101, 90),rgba(188, 35, 35, 0));
+}

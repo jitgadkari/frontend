@@ -1,0 +1,34 @@
+*{
+ margin: 0;
+ padding: 0;   
+}
+.contain{
+    width: 60vw;
+    height: 80vh;
+    background-color: rgb(178, 181, 181);
+    margin: auto;
+    display: flex;
+    border: 1px solid rgb(197, 195, 195);
+    margin-top: 10vh;
+    border-radius: 10px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom ,rgb(255, 255, 255),rgba(146, 137, 137, 0));
+    background-color: rgb(29, 29, 28);
+}
+
+.form{
+    width: 15vw;
+    /* height: 10vh; */
+    margin: auto;
+}
+.cardsf{
+ margin-left: 5vw;
+ margin-top: 25vh;
+ background-color: aquamarine;
+ color: black;
+}

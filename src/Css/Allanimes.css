@@ -1,0 +1,46 @@
+.latestcard{
+    width:230px;
+    height: 500px;
+    margin: 10px 10px 10px 10px;
+    /* display: grid;
+    grid-template-columns: auto auto auto auto; */
+    background-image: linear-gradient(to bottom ,rgb(255, 255, 255),rgba(146, 137, 137, 0));
+    border-radius: 8px;
+  
+}
+.latestc{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    background-color: #211f1f;
+    
+}
+.title{
+    background-color: #211f1f;
+    color: white;
+}
+.search-content{
+    background-color: #211f1f;
+    
+}
+.fix{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    background-color: #211f1f;
+}
+.fix form{
+    position: absolute;
+    right: 0px;
+    z-index: 3;
+    top: 0px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.size img{
+    height: 45vh;
+    width: 100wh;
+
+}

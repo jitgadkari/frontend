@@ -1,0 +1,92 @@
+.cards {
+  padding: 10px;
+  background-color: rgb(42, 46, 46);
+  overflow-x: auto;
+  display: grid;
+}
+.title {
+  color: white;
+  font-weight: bolder;
+  padding-top: 7px;
+  background-color: rgb(44, 40, 40);
+  padding-left: 10px;
+  text-align: left;
+}
+.scroll {
+  /* overflow-x:hidden; */
+}
+
+section {
+  display: grid;
+  background-color: rgb(41, 37, 37);
+  grid-template-columns: var(--page-margin) [center-start] 1fr [center-end] var(
+      --page-margin
+    );
+
+  /* & > * {
+    grid-column: center;
+  } */
+}
+/* .box{
+  background-image: linear-gradient(to bottom ,rgb(255, 255, 255),rgba(146, 137, 137, 0));
+  border-radius: 8px;
+
+} */
+
+.cards-wrapper {
+  grid-column: center-start / -1;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1.5rem;
+  overflow: auto;
+  padding-bottom: 1rem;
+  padding-right: var(--page-margin);
+  padding: 10px;
+
+
+}
+.card {
+    display: grid;
+    /* place-content: center; */
+    /* background-color: #2c2929; */
+    background-color: black;
+    background-image: linear-gradient(to bottom ,rgb(255, 255, 255),rgba(146, 137, 137, 0));
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    height: 15rem;
+    min-width: 13rem;
+    
+  }
+  
+  .hover{
+    
+  }
+  .pos{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 2px;
+    color: rgb(7, 213, 90);
+    font-weight: bold;
+  }
+  .box{
+    
+      width:230px;
+      height: 500px;
+      margin: 10px 10px 10px 10px;
+      /* display: grid;
+      grid-template-columns: auto auto auto auto; */
+      background-image: linear-gradient(to bottom ,rgb(255, 255, 255),rgba(146, 137, 137, 0));
+      border-radius: 8px;
+    
+  
+  }
+  .size img{
+    height: 45vh;
+    width: 100wh;
+
+}
+.overlap-remover{
+  position: relative;
+}
